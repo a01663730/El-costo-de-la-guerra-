@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis de Pérdidas de Equipamiento Militar Ruso en la Guerra de Ucrania entre 2022 y 2023</title>
+    <title>Análisis Completo de Pérdidas de Equipamiento Militar</title>
     <style>
         body {
             font-family: 'Georgia', 'Times New Roman', serif;
             line-height: 1.8;
             color: #2c3e50;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 40px 20px;
             background-color: #fdfdfd;
@@ -22,6 +22,12 @@
             font-size: 2.4rem;
             margin-bottom: 10px;
         }
+        h2 {
+            font-size: 1.6rem;
+            margin-top: 40px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 8px;
+        }
         .meta-info {
             font-size: 0.9rem;
             color: #7f8c8d;
@@ -29,37 +35,72 @@
             border-bottom: 1px solid #eee;
             padding-bottom: 15px;
         }
-        .grafico-wrapper {
+        /* Estilo para los contenedores de los gráficos */
+        .grafico-card {
             width: 100%;
-            margin: 35px 0;
+            margin: 30px 0;
+            background: #ffffff;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
         }
         iframe {
             width: 100%;
-            height: 560px;
+            height: 550px;
             border: none;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: block;
         }
     </style>
 </head>
 <body>
 
-    <h1>Evolución de Pérdidas de Equipamiento Militar</h1>
+    <h1>Análisis de Pérdidas de Equipamiento Militar</h1>
     <div class="meta-info">Por Diego Velázquez Jiménez | Publicado en GitHub Pages</div>
 
     <p>
-        A continuación se analiza el registro acumulado de pérdidas de equipamiento en conflicto militar 
-        durante el período proyectado hasta el 31 de diciembre de 2023.
+        En este informe se analiza la relación entre el coste de la pérdida de equipamiento militar Ruso y Ucraniano con sus respectivos PIBs
     </p>
 
-    <!-- Incrustación del gráfico guardado desde Colab -->
-    <div class="grafico-wrapper">
-        <iframe src="grafico_perdidas.html"></iframe>
-    </div>
-    
-    <h2>Conclusiones principales</h2>
+    <!-- ==================== GRÁFICA 1 ==================== -->
+    <h2>1. Visión General de Economía Rusa (PIB)</h2>
     <p>
-       A pesar de ser  
+        
+    </p>
+    <div class="grafico-card">
+        <iframe src="economia_rusa.html"></iframe>
+    </div>
+
+    <!-- ==================== GRÁFICA 2 ==================== -->
+    <h2>2. Visión General de Economía Ucraniana</h2>
+    <p>
+        
+    </p>
+    <div class="grafico-card">
+        <iframe src="economia_ucrania.html"></iframe>
+    </div>
+
+    <!-- ==================== GRÁFICA 3 ==================== -->
+    <h2>3. Comparativa PIB de Rusia vs PIB Ucrania</h2>
+    <p>
+        
+    </p>
+    <div class="grafico-card">
+        <iframe src="comparativa.html"></iframe>
+    </div>
+
+    <!-- Puedes duplicar este bloque si tienes más gráficas -->
+    <!--
+    <h2>4. Título de la siguiente gráfica</h2>
+    <p>Descripción o interpretación de los datos.</p>
+    <div class="grafico-card">
+        <iframe src="grafico_4.html"></iframe>
+    </div>
+    -->
+
+    <h2>Conclusiones Finales</h2>
+    <p>
+        Escribe aquí un resumen general con los hallazgos más importantes derivados de tus visualizaciones.
     </p>
 
 </body>
